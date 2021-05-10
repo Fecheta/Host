@@ -22,7 +22,7 @@
 
     <div class="profil">
         <div class="numePoza">
-            <img src="/images/prisoner.png" class="forImg">
+            <img src="/public/images/prisoner.png" class="forImg">
             <div class="info">
                 <h4>Laparnaie Daniel</h4>
                 <h5>Magie</h5>
@@ -54,7 +54,7 @@
 
     <div class="profil">
         <div class="numePoza">
-            <img src="/images/prisoner.png" class="forImg">
+            <img src="/public/images/prisoner.png" class="forImg">
             <div class="info">
                 <h4>Laparnaie Daniel</h4>
                 <h5>Magie</h5>
@@ -86,7 +86,7 @@
 
     <div class="profil">
         <div class="numePoza">
-            <img src="/images/prisoner.png" class="forImg">
+            <img src="/public/images/prisoner.png" class="forImg">
             <div class="info">
                 <h4>Laparnaie Daniel</h4>
                 <h5>Magie</h5>
