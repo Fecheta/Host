@@ -27,7 +27,7 @@
     </div>
     <div>
        <button class = "inp2" type="submit">
-       <a href="/vizitator/index.php">Login</a>
+       <a href="/vizitator/index">Login</a>
            
        </button>
     </div>
