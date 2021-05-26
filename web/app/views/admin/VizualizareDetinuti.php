@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ListaDetinuti</title>
-    <link rel="stylesheet" href="/public/admin/css/VizualizareDetinuti.css">
+    <link rel="stylesheet" href="/public/css/admin/VizualizareDetinuti.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/public/admin/css/Principal.css">
+    <link rel="stylesheet" href="/public/css/admin/Principal.css">
     <script type="text/javascript" src="public/javaScript/topnav.js"></script>
     <style>
         table,

@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DetaliiCont</title>
 
-    <link rel="stylesheet" href="/public/admin/css/DetaliiCont.css">
+    <link rel="stylesheet" href="/public/css/admin/DetaliiCont.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/public/admin/css/Principal.css">
+    <link rel="stylesheet" href="/public/css/admin/Principal.css">
     <script type="text/javascript" src="/public/javaScript/topnav.js"></script>
 </head>
 
