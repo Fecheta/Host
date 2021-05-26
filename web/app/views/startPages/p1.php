@@ -36,7 +36,7 @@
    <main >
     
     <div class ="button">
-   <form >  <a href="/web/app/views/startPages/LoginPage.php">
+   <form >  <a href="/startPages/LoginPage.php">
        <input class="item" type = "button" id = "button" value = "Login" >
     </a>
        </form>
