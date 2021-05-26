@@ -21,7 +21,7 @@
             <a id="verifica" href="/admin/VizualizareDetinuti">Vizualizare Detinuti</a>
             <a id="about" href="/admin/DetaliiCont" >Detalii cont</a>
             <div id="userManagePhone" class="extraResponsive">
-                <a id="logoutP" href="../../StartPage/html/p1.html">Schimba cont</a>
+                <a id="logoutP" href="/StartPage/index">Schimba cont</a>
                 <a id="modifyP" href="#change_account_data">Modifica cont</a>
                 <a id="removeP" href="#del_account">Sterge Cont</a>
             </div>
@@ -32,14 +32,14 @@
             </a>
             <a id="user" href="#account" class="logged" onclick="AccShow(this.id)">Nume User</a>
             <div id="userManage" class="extra">
-                <a id="logout" href="../../StartPages/p1.php">Schimba cont</a>
+                <a id="logout" href="/StartPages/index">Schimba cont</a>
                 <a id="modify" href="#change_account_data">Modifica cont</a>
                 <a id="remove" href="#del_account">Sterge Cont</a>
             </div>
         </div>
     </div>
 
-    <a href="../../Raport/raport.html">
+    <a href="/raport/">
         <div class="raportRed">
             SPRE RAPORT
         </div>
