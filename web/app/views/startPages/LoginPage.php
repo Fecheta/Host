@@ -7,7 +7,7 @@
     <title>Login</title>
     <meta name="description"
     content = "Logheaza-te" />
-    <link rel="stylesheet" href="/public/css/startPagesLoginPage.css">
+    <link rel="stylesheet" href="/public/css/startPages/LoginPage.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
