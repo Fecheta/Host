@@ -24,8 +24,6 @@ class Admin extends Controller{
     public function VizualizareDetinuti($data = []){
         $view = $this->view('admin/VizualizareDetinuti');
     }
-
-   
 }
 
 ?>
