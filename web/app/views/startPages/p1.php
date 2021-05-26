@@ -35,7 +35,7 @@
    <main >
     
     <div class ="button">
-   <form >  <a href="/startPages/LoginPage.php">
+   <form >  <a href="/startPages/LoginPage">
        <input class="item" type = "button" id = "button" value = "Login" >
     </a>
        </form>
@@ -43,7 +43,7 @@
        
 
     <div class ="button">
-        <form > <a href="/web/app/views/startPages/SignUpPage.php">
+        <form > <a href="/startPages/SignUpPage">
             <input class="item" type = "button" id = "button" value = "Sign Up">
         </a>
             </form> 
@@ -52,7 +52,7 @@
 
 
          <div class ="button">
-            <form > <a href="/web/app/views/startPages/AdministratorPage.php">
+            <form > <a href="/startPages/AdministratorPage">
                 <input class ="item" type = "button" id ="button" value = "Login as Administrator">
             </a>
                 </form>

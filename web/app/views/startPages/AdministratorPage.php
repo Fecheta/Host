@@ -27,7 +27,7 @@
     </div>
     <div>
         <button class = "inp2" type="submit">
-            <a href="/web/app/views/admin/Principal.php">Login</a>
+            <a href="/admin/Principal">Login</a>
         </button> 
     </div>
 </form>  
