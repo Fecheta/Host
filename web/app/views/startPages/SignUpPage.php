@@ -100,7 +100,7 @@
         You may receive SMS Notifications from us and can opt out any time.
     </footer>
     <button class = "inp2" type="submit">
-        <a href= "../../StartPage/html/LoginPage.html">Register</a>
+        <a href= "/web/app/views/startPages/LoginPage.php">Register</a>
     </button> 
     </div>
     </form>  
