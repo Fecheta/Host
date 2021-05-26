@@ -11,7 +11,7 @@
 </head>
 <body class="pagina">
     <div class="bar">
-        <a href="../StartPage/html/p1.html" class="back"> $lt BACK </a>
+        <a href="../StartPage/html/p1.html" class="back"> &lt BACK </a>
         <div class="rezultatTitlu">
             <p>RAPORT</p>
         </div>
@@ -262,6 +262,7 @@
                 <p> MDN Web Docs </p>
             </a>
         </div>
+    </div>
 
 </body>
 </html>
