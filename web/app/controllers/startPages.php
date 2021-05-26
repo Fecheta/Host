@@ -15,11 +15,9 @@ class StartPages extends Controller{
         $view = $this->view('startPages/AdministratorPage');
     }
 
-    public function p1($data = []){
-        $view = $this->view('startPages/p1');
+    public function index($data = []){
+        $view = $this->view('startPages/index');
     }
-
-
 }
 
 ?>
