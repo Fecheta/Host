@@ -18,12 +18,11 @@
             <li><a href="#contact">Contact</a></li>
             <li><a href="#about">About</a></li>
           </ul>
-    <h1> 
-    <p class="a" >IT'S DEMO TYME!&#128512;&#128483;&#128110;</p>
+    <h1 class="a" > IT'S DEMO TYME!&#128512;&#128483;&#128110;
     </h1>
 
     <h2 >
-        <p> Site-ul nostru va ofera posibilitatea de a programa o intalnire cu un detinut din penitenciar! </p>
+        Site-ul nostru va ofera posibilitatea de a programa o intalnire cu un detinut din penitenciar! 
         
     </h2>
 
