@@ -7,7 +7,7 @@
     <title>Sign Up</title>
     <meta name="description"
     content = "Logheaza-te" />
-    <link rel="stylesheet" href="/public/css/StartPages/SignUpPage.css">
+    <link rel="stylesheet" href="/public/css/startPages/SignUpPage.css">
 
 </head>
 <body>
