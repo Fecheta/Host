@@ -2,7 +2,7 @@
 
 class App{
 
-    protected $controller = 'vizitator';
+    protected $controller = 'startPages';
 
     protected $method = 'index';
 
