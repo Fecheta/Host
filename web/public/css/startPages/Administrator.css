@@ -3,7 +3,7 @@ body {
     margin: auto;
    
     background: lightskyblue;
-    background-image: url(../images/p7.svg);
+    background-image: url(/web/public/images/p7.svg);
     background-clip: content-box;
     background-repeat: no-repeat;
     
