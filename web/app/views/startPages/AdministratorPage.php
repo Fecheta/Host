@@ -7,7 +7,7 @@
     <title>Login</title>
     <meta name="description"
     content = "Logheaza-te" />
-    <link rel="stylesheet" href="/public/css/StartPage/LoginPage.css">
+    <link rel="stylesheet" href="/public/css/StartPages/Administrator.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -26,12 +26,10 @@
 
     </div>
     <div>
-       <button class = "inp2" type="submit">
-            <a href="../../Vizitator/html/index.html">Login</a>
-       </button>
+        <button class = "inp2" type="submit">
+            <a href="../../Admin/html/Principal.html">Login</a>
+        </button> 
     </div>
-
-
 </form>  
 </main>
 <footer>
