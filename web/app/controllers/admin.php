@@ -1,6 +1,6 @@
 <?php
 
-class Vizitator extends Controller{
+class Admin extends Controller{
 
    
 
