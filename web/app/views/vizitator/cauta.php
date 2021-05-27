@@ -42,7 +42,8 @@
 
 </body>
 
-<form class="search">
+<form action="/vizitator/profil">
+    <div class="search">
         <label for="fname" class="titlu">CAUTA PE CINEVA</label>
         <div class="line">
             <label for="fname">Numele</label>
@@ -61,7 +62,8 @@
             <input id="codDetinut" type="text" placeholder="Cod Detinut" required>
         </div>
 
-        <button class="btn"><a href="/vizitator/profil">Cauta!</a></button>
+        <button class="btn"> Cauta! </button>
+    </div>
 </form>
 <h3>Apasă pe caută! pentru a ajunge la o pagină cu un model de rezultat</h3>
 
