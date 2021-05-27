@@ -35,10 +35,12 @@
    <main >
     
     <div class ="button">
-   <form >  <a href="/startPages/LoginPage">
-       <input class="item" type = "button" id = "button" value = "Login" >
-    </a>
-       </form>
+        <form >  
+            <a href="/startPages/LoginPage">
+                <!-- <input class="item" type = "button" id = "button" value = "Login" > -->
+                <button class="item"> Login </button>
+            </a>
+        </form>
     </div>
        
 
@@ -57,9 +59,6 @@
             </a>
                 </form>
              </div>
-       
-  
-   
 </main>
 
 
