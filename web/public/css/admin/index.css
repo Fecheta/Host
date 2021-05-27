@@ -4,7 +4,7 @@ body {
     /* overflow: hidden; */
 }
 
-.st{
+.st {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .topnav a {
-    color: white;
+    color: black;
     padding: 1em 1em;
     text-decoration: none;
     font-size: 1.25em;
@@ -47,7 +47,7 @@ body {
 
 .topnav a.activate {
     background-color: deepskyblue;
-    color: white;
+    color: black;
 }
 
 .account .icon {
@@ -70,7 +70,7 @@ body {
 }
 
 .account a {
-    color: white;
+    color: black;
     padding: 1em 1em;
     text-decoration: none;
     font-size: 1.25em;
@@ -89,11 +89,11 @@ body {
     color: black;
 }
 
-.st a{
+.st a {
     text-decoration: none;
 }
 
-.raportRed{
+.raportRed {
     border: 5px dashed rgba(0, 0, 0, 0.5);
     margin-top: 5em;
     font-size: 2.5em;
@@ -101,9 +101,9 @@ body {
     color: black;
 }
 
-.raportRed:hover{
+.raportRed:hover {
     background-color: deepskyblue;
-    color:white;
+    color: black;
 }
 
 @media screen and (max-width: 1000px) {
