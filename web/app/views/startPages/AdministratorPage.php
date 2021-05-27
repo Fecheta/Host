@@ -26,9 +26,11 @@
 
     </div>
     <div>
+        <form action="/admin/Principal" >
         <button class = "inp2" type="submit">
-            <a href="/admin/Principal">Login</a>
-        </button> 
+          Login</a>
+        </button>
+</form> 
     </div>
 </form>  
 </main>

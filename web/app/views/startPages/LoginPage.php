@@ -26,9 +26,12 @@
 
     </div>
     <div>
-       <button  action="/vizitator/index" class = "inp2" type="submit"> Login</a>
+    <form   action="/vizitator/index">  
+    <button class = "inp2" type="submit"> Login</a>
            
-       </button>
+     </button>
+    </form>
+      
     </div>
 
 
