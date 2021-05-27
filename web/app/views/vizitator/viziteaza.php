@@ -64,8 +64,7 @@
         <div class="line">
             <label for="rude">Relatia cu detinutul</label>
             <select name="grad" id="rude" required>
-                <option> </option>
-                <option value="-1">- - select - -</option>
+                <option label="select"> - - select - - </option>
                 <option value="0">Ruda</option>
                 <option value="1">Tutore legal</option>
                 <option value="2">Avocat</option>
@@ -76,8 +75,7 @@
         <div class="line">
             <label for="scop">Scopul Vizitei</label>
             <select name="grad" id="scop" required>
-                <option> </option>
-                <option value="-1">- - select - -</option>
+                <option label="select"> - - select - - </option>
                 <option value="0">Vizita Amicala</option>
                 <option value="1">Chestiuni Judecatresti</option>
                 <option value="2">Probleme Personale</option>
