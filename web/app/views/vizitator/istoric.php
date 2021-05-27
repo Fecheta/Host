@@ -46,11 +46,11 @@
         <div class="detalii">
             <div class="raw">
                 <p class="col1">Data vizitei: </p>
-                <p class="col2"><time>20-04-2021</time></p>
+                <p class="col2"><time datetime="2021-04-20">20-04-2021</time></p>
             </div>
             <div class="raw">
                 <p class="col1">Ora vizitei: </p>
-                <p class="col2"><time>10:00 AM</time></p>
+                <p class="col2"><time datetime="10:00 AM">10:00 AM</time></p>
             </div>
             <div class="raw">
                 <p class="col1">Numele Detinutului: </p>
@@ -66,7 +66,7 @@
             </div>
             <div class="raw">
                 <p class="col1">Durata vizitei: </p>
-                <p class="col2"><time>30 min</time></p>
+                <p class="col2"><time datetime="PT0H30M">30 min</time></p>
             </div>
         </div>
         <div class="status">
@@ -81,11 +81,11 @@
         <div class="detalii">
             <div class="raw">
                 <p class="col1">Data vizitei: </p>
-                <p class="col2"><time>20-04-2021</time></p>
+                <p class="col2"><time datetime="2021-04-20">20-04-2021</time></p>
             </div>
             <div class="raw">
                 <p class="col1">Ora vizitei: </p>
-                <p class="col2"><time>10:00 AM</time></p>
+                <p class="col2"><time datetime="10:00 AM">10:00 AM</time></p>
             </div>
             <div class="raw">
                 <p class="col1">Numele Detinutului: </p>
@@ -101,7 +101,7 @@
             </div>
             <div class="raw">
                 <p class="col1">Durata vizitei: </p>
-                <p class="col2"><time>30 min</time></p>
+                <p class="col2"><time datetime="PT0H30M">30 min</time></p>
             </div>
         </div>
         <div class="status">
@@ -116,11 +116,11 @@
         <div class="detalii">
             <div class="raw">
                 <p class="col1">Data vizitei: </p>
-                <p class="col2"><time>20-04-2021</time></p>
+                <p class="col2"><time datetime="2021-04-20">20-04-2021</time></p>
             </div>
             <div class="raw">
                 <p class="col1">Ora vizitei: </p>
-                <p class="col2"><time>10:00 AM</time></p>
+                <p class="col2"><time datetime="10:00 AM">10:00 AM</time></p>
             </div>
             <div class="raw">
                 <p class="col1">Numele Detinutului: </p>
@@ -136,7 +136,7 @@
             </div>
             <div class="raw">
                 <p class="col1">Durata vizitei: </p>
-                <p class="col2"><time>30 min</time></p>
+                <p class="col2"><time datetime="PT0H30M">30 min</time></p>
             </div>
         </div>
         <div class="status">
