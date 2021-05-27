@@ -10,7 +10,7 @@ body {
     align-items: center;
 }
 
-table{
+table {
     /* position: absolute;
     left: 50%;
     top: 80%;
@@ -39,7 +39,7 @@ tr:nth-child(even) {
 
 th {
     background-color: #D2691E;
-    color: white;
+    color: black;
     padding: 0.5em 0;
 }
 
@@ -47,8 +47,8 @@ div.tabel {
     width: 50%;
 }
 
-@media screen and (max-width: 800px){
-    div.table{
+@media screen and (max-width: 800px) {
+    div.table {
         width: 80%;
     }
 }
