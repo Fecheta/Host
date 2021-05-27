@@ -51,7 +51,7 @@ main form{
     width: 20px;
     height: 2.5em;
     font-size: 0.5em;
-    
+    display: flex;
     justify-content: center;
     align-items: center;
 }
