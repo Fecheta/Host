@@ -28,8 +28,8 @@
 </form>  
 
     <div>
-    <form   action="/vizitator/index">  
-    <button class = "inp2" type="submit"> Login
+    <form  action="/vizitator/index">  
+    <button  type="submit"> Login
            
     
     </button>
