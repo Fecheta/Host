@@ -37,7 +37,7 @@ body {
   
     .text {
       font-size:3px;
-      color: blue;
+      color: rgb(8, 8, 35);
     }
   
     .inp {
@@ -56,6 +56,6 @@ body {
     }
   
     ::placeholder {
-      color:rgb(6, 46, 62);
+      color:rgb(21, 109, 144);
       opacity: 2; /* Firefox */
     }
