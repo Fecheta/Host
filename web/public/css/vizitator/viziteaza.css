@@ -13,7 +13,7 @@ body{
     justify-content: center;
     width: 40%;
     /* border: 1px solid black; */
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     padding: 1em 1em;
     margin: 2em 0;
     text-align: center;
@@ -21,7 +21,7 @@ body{
 
 .search .btn{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .line{
