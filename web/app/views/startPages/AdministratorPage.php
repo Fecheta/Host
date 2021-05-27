@@ -27,7 +27,7 @@
     </div>
     </form>  
     <div>
-        <form action="/admin/Principal" >
+        <form  class = "inp2" action="/admin/Principal" >
         <button class = "inp2" type="submit">
           Login
         </button>

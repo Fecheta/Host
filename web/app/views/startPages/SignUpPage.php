@@ -100,7 +100,7 @@
         
         You may receive SMS Notifications from us and can opt out any time.
     </footer>
-    <form action = "/startPages/LoginPage">
+    <form  class = "inp2" action = "/startPages/LoginPage">
     <button class = "inp2" type="submit">
          Register
     </button>
