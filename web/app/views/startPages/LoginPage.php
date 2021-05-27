@@ -25,17 +25,22 @@
     <input type="password" class="inp" placeholder="Password" required/>
 
     </div>
+</form>  
+
     <div>
     <form   action="/vizitator/index">  
     <button class = "inp2" type="submit"> Login
            
-     </button>
+    
+    </button>
+    
     </form>
-      
     </div>
+      
+    
 
 
-</form>  
+
 </main>
 <footer>
    

@@ -25,6 +25,7 @@
     <input type="password" class="inp" placeholder="Password" required/>
 
     </div>
+    </form>  
     <div>
         <form action="/admin/Principal" >
         <button class = "inp2" type="submit">
@@ -32,7 +33,7 @@
         </button>
 </form> 
     </div>
-</form>  
+
 </main>
 <footer>
    

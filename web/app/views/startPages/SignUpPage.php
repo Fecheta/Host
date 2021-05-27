@@ -94,7 +94,7 @@
                   <label class="inp2" for="C">Custom</label>
                   <input type="radio" id="C"
                name="gender" value="Custom">
-
+               </form>  
     <footer>
         
         You may receive SMS Notifications from us and can opt out any time.
@@ -103,10 +103,10 @@
     <button class = "inp2" type="submit">
          Register
     </button>
-    </form> 
+</form>
     
 </div>
-    </form>  
+    
 
 
 </body>
