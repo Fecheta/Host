@@ -4,7 +4,7 @@ class Admin extends Controller{
 
    
 
-    public function Principal($data = []){
+    public function index($data = []){
         
         $view = $this->view('admin/index',$data);
     }
