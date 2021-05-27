@@ -99,10 +99,13 @@
         
         You may receive SMS Notifications from us and can opt out any time.
     </footer>
+    <form action = "/startPages/LoginPage">
     <button class = "inp2" type="submit">
-        <a href= "/startPages/LoginPage.php">Register</a>
-    </button> 
-    </div>
+         Register</a>
+    </button>
+    </form> 
+    
+</div>
     </form>  
 
 
