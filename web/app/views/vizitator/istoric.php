@@ -50,7 +50,7 @@
             </div>
             <div class="raw">
                 <p class="col1">Ora vizitei: </p>
-                <p class="col2"><time datetime="10:00 AM">10:00 AM</time></p>
+                <p class="col2"><time datetime="10:00">10:00 AM</time></p>
             </div>
             <div class="raw">
                 <p class="col1">Numele Detinutului: </p>
@@ -85,7 +85,7 @@
             </div>
             <div class="raw">
                 <p class="col1">Ora vizitei: </p>
-                <p class="col2"><time datetime="10:00 AM">10:00 AM</time></p>
+                <p class="col2"><time datetime="10:00">10:00 AM</time></p>
             </div>
             <div class="raw">
                 <p class="col1">Numele Detinutului: </p>
@@ -120,7 +120,7 @@
             </div>
             <div class="raw">
                 <p class="col1">Ora vizitei: </p>
-                <p class="col2"><time datetime="10:00 AM">10:00 AM</time></p>
+                <p class="col2"><time datetime="10:00">10:00 AM</time></p>
             </div>
             <div class="raw">
                 <p class="col1">Numele Detinutului: </p>
