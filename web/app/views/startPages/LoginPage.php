@@ -25,9 +25,8 @@
     <input type="password" class="inp" placeholder="Password" required/>
 
     </div>
-    <div>
-       <button class = "inp2" type="submit">
-       <a href="/vizitator/index">Login</a>
+    <div action="/vizitator/index">
+       <button class = "inp2" type="submit"> Login</a>
            
        </button>
     </div>
