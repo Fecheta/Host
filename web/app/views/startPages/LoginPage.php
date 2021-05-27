@@ -27,7 +27,7 @@
     </div>
     <div>
     <form   action="/vizitator/index">  
-    <button class = "inp2" type="submit"> Login</a>
+    <button class = "inp2" type="submit"> Login
            
      </button>
     </form>

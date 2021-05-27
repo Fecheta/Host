@@ -101,7 +101,7 @@
     </footer>
     <form action = "/startPages/LoginPage">
     <button class = "inp2" type="submit">
-         Register</a>
+         Register
     </button>
     </form> 
     
