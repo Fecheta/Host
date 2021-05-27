@@ -13,12 +13,7 @@
 <body>
     
     <header>
-        <ul>
-            <li ><a href="http://localhost:3000/Proiect/p1.html#about">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-          </ul>
+       
     <h1 class="a" > IT'S DEMO TYME!&#128512;&#128483;&#128110;
     </h1>
 
