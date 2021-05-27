@@ -1,16 +1,16 @@
-body{
+body {
     background-color: rgb(135, 206, 250);
     /* overflow: hidden; */
 }
 
-.st{
+.st {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.fullTopnav{
+.fullTopnav {
     width: 100%;
     text-align: center;
     display: flex;
@@ -21,44 +21,44 @@ body{
     margin-bottom: 2em; */
 }
 
-.topnav{
+.topnav {
     width: 100%;
     height: 10%;
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     overflow: auto;
     display: flex;
     flex-direction: row;
     /* border: 1px solid black; */
 }
 
-.topnav a{
-    color: white;
+.topnav a {
+    color: black;
     padding: 1em 1em;
     text-decoration: none;
     font-size: 1.25em;
     width: 12.5%;
 }
 
-.topnav a:hover{
-    background-color:darkgrey;
+.topnav a:hover {
+    background-color: darkgrey;
     color: black;
 }
 
-.topnav a.activate{
-    background-color:deepskyblue;
-    color:white;
+.topnav a.activate {
+    background-color: deepskyblue;
+    color: black;
 }
 
-.account .icon{
+.account .icon {
     display: none;
 }
 
-.topnav .extraResponsive{
+.topnav .extraResponsive {
     display: none;
 }
 
-.account{
-    background-color:rgba(163, 14, 44, 0.6);
+.account {
+    background-color: rgba(163, 14, 44, 0.6);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -68,8 +68,8 @@ body{
     right: 0;
 }
 
-.account a{
-    color: white;
+.account a {
+    color: black;
     padding: 1em 0em;
     text-decoration: none;
     font-size: 1.25em;
@@ -78,17 +78,17 @@ body{
     text-align: center;
 }
 
-.account .extra{
+.account .extra {
     display: none;
     flex-direction: column;
 }
 
-.account a:hover{
-    background-color:darkgrey;
+.account a:hover {
+    background-color: darkgrey;
     color: black;
 }
 
-.test{
+.test {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -98,80 +98,74 @@ body{
     text-decoration: none;
 }
 
-.test i{
+.test i {
     border: 5px dashed white;
     padding: 0.5em 0.5em;
     margin: unset;
     color: black;
 }
 
-.test i:hover{
-    color: white;
+.test i:hover {
+    color: black;
     background-color: darkgray;
 }
 
-.test p{
+.test p {
     /* border: 1px solid white; */
     padding: 0.5em 0.5em;
     margin: unset;
 }
 
-@media screen and (max-width: 1000px){
-    .fullTopnav .account a:not(.icon){display: none;}
-
-    .topnav a:not(.activate){
+@media screen and (max-width: 1000px) {
+    .fullTopnav .account a:not(.icon) {
+        display: none;
+    }
+    .topnav a:not(.activate) {
         display: none;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     }
-
-    .topnav .activate{
+    .topnav .activate {
         width: 50%;
         font-size: 1em;
         text-align: left;
     }
-
-    .topnav .extraResponsive{
+    .topnav .extraResponsive {
         display: flex;
         flex-direction: column;
         /* background-color:rgba(245, 222, 179, 0.301); */
     }
-
-    .topnav .extraResponsive a{
+    .topnav .extraResponsive a {
         background-color: rgba(0, 0, 0, 0.1);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     }
-
-    .topnav .extraResponsive a:hover{
-        background-color:darkgrey;
+    .topnav .extraResponsive a:hover {
+        background-color: darkgrey;
         color: black;
     }
-
-    .account a.icon{
+    .account a.icon {
         display: block;
         width: 100%;
         font-size: 1em;
         padding: 1em 0;
     }
-    .fullTopnav .topnav{
+    .fullTopnav .topnav {
         font-size: 1em;
         width: 100%;
         display: flex;
         flex-direction: column;
         overflow: hidden;
     }
-
-    .test{
+    .test {
         font-size: 2.5em;
     }
 }
 
-@media screen and (max-width: 1000px){
-    .topnav.responsive{
+@media screen and (max-width: 1000px) {
+    .topnav.responsive {
         position: relative;
         overflow: auto;
     }
-
-    .topnav.responsive a.icon{
+    .topnav.responsive a.icon {
         position: absolute;
         right: 0;
         top: 0;
@@ -179,20 +173,17 @@ body{
         width: 10%;
         text-align: center;
     }
-
-    .topnav.responsive a{
+    .topnav.responsive a {
         float: none;
         display: block;
         text-align: left;
         width: 50%;
         font-size: 1em;
     }
-
-    .topnav.responsive a.activate{
+    .topnav.responsive a.activate {
         font-size: 1em;
     }
-
-    .test{
+    .test {
         font-size: 3em;
     }
 }

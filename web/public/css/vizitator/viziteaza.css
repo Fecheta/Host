@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,22 +19,22 @@ body{
     text-align: center;
 }
 
-.search .btn{
+.search .btn {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
-.line{
+.line {
     display: flex;
     align-items: center;
     /* border: 1px solid black; */
     /* align-items: center; */
     width: 90%;
-    background-color:rgb(233, 233, 233);
+    background-color: rgb(233, 233, 233);
     margin: 0.5em 0.5em;
 }
 
-.line label{
+.line label {
     display: inline-block;
     font-size: 1.2em;
     margin: 2em 1em;
@@ -43,17 +43,17 @@ body{
     /* background-color: wheat; */
 }
 
-form label:not(.titlu)::after{
+form label:not(.titlu)::after {
     color: crimson;
     content: "*";
     font-weight: bold;
 }
 
-.search .titlu{
+.search .titlu {
     font-size: 2em;
 }
 
-.line input{
+.line input {
     /* float: right; */
     width: 55%;
     height: 40%;
@@ -64,20 +64,20 @@ form label:not(.titlu)::after{
 }
 
 .line input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button{
+input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
-.line select{
+.line select {
     padding: 1em 1em;
     height: 40%;
     margin: 1em 1em;
     font-size: 1em;
 }
 
-.btn{
-    background-color:deepskyblue;
+.btn {
+    background-color: deepskyblue;
     cursor: pointer;
     width: 90%;
     height: 2.5em;
@@ -86,39 +86,34 @@ input[type="number"]::-webkit-outer-spin-button{
     border-radius: 1em;
 }
 
-@media screen and (max-width: 1000px){
-    .search{
+@media screen and (max-width: 1000px) {
+    .search {
         width: 85%;
     }
-    .line{
+    .line {
         display: block;
         width: 99%;
         /* border: 1px solid black; */
         margin: 1em 0;
     }
-
-    .line label{
+    .line label {
         float: none;
         margin: auto;
         width: 70%;
         display: inline-block;
         margin-top: 0.5em;
     }
-
-    .line input{
-
+    .line input {
         padding: 0.5em 0.5em;
         width: 80%;
         margin-bottom: 1em;
     }
-
-    .line select{
+    .line select {
         padding: 0.5em 0.5em;
         width: 50%;
         margin-bottom: 1em;
     }
-
-    .btn{
+    .btn {
         width: 99%;
     }
 }

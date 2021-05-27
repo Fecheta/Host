@@ -1,4 +1,4 @@
-body{
+body {
     /* width: 100vw;
     height: 100vh;
     display: flex;
@@ -10,7 +10,7 @@ body{
     align-items: center;
 }
 
-.bar{
+.bar {
     width: 100%;
     display: flex;
     align-items: center;
@@ -27,62 +27,62 @@ body{
     z-index: 1;
 }
 
-.bar .back{
+.bar .back {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
-.bar .back:hover{
+.bar .back:hover {
     background-color: darkgrey;
     color: black;
 }
 
-.bar .rezultatTitlu{
-    color: white;
-    font-size:  1.25em;
+.bar .rezultatTitlu {
+    color: black;
+    font-size: 1.25em;
     /* border: 1px solid black; */
     position: absolute;
     width: 98vw;
 }
 
-.bar .rezultatTitlu p{
+.bar .rezultatTitlu p {
     font-size: 1.25em;
     padding: 0 1em;
     margin: unset;
 }
 
-.profil{
+.profil {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 40%;
     display: inline-flex;
     margin: 1em 0;
-    background-color:  rgba(245, 222, 179, 1);
+    background-color: rgba(245, 222, 179, 1);
 }
 
-.profil .numePoza{
+.profil .numePoza {
     width: 50%;
     text-align: center;
     border: 2px dashed rgb(189, 171, 137)
 }
 
-.profil .numePoza .forImg{
+.profil .numePoza .forImg {
     width: 100%;
     border-radius: 5px;
     /* border: 1px solid black; */
 }
 
-.profil .numePoza .info{
+.profil .numePoza .info {
     /* border: 1px solid black; */
     margin: unset;
 }
 
-.profil .numePoza .info h4{
+.profil .numePoza .info h4 {
     font-weight: bold;
     margin: 1em 0.1em;
 }
 
-.profil .pData{
+.profil .pData {
     /* border: 1px solid black; */
     width: 100%;
     display: flex;
@@ -90,7 +90,7 @@ body{
     font-size: 1.25em;
 }
 
-.rawData{
+.rawData {
     height: 20%;
     display: flex;
     flex-direction: row;
@@ -99,46 +99,42 @@ body{
     background-color: rgba(245, 222, 179, 1);
 }
 
-.rawData p{
+.rawData p {
     margin: unset;
 }
 
-.col1Data{
+.col1Data {
     display: flex;
     flex-direction: column;
     float: left;
     width: 50%;
 }
 
-.col2Data{
+.col2Data {
     display: flex;
     flex-direction: column;
     margin-left: 2em;
 }
 
-.pData div:nth-child(2n-1){
+.pData div:nth-child(2n-1) {
     background-color: antiquewhite;
 }
 
-@media screen and (max-width: 800px){
-    .profil{
+@media screen and (max-width: 800px) {
+    .profil {
         width: 95%;
         /* overflow: hidden; */
     }
-
     /* .profil .forImg .info{
         height: 20%;
     } */
-
-    .profil .pData{
+    .profil .pData {
         font-size: 1em;
     }
-
-    .bar .back{
+    .bar .back {
         width: 35%;
     }
-
-    .bar .rezultatTitlu{
+    .bar .rezultatTitlu {
         position: relative;
         font-size: 1em;
     }
