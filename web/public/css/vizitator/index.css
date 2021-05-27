@@ -58,7 +58,7 @@ body{
 }
 
 .account{
-    background-color:rgba(163, 14, 44, 1);
+    background-color:rgb(150, 130, 255);
     overflow: hidden;
     display: flex;
     flex-direction: column;
