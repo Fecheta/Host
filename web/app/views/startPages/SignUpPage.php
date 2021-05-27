@@ -94,6 +94,7 @@
                   <label class="inp2" for="C">Custom</label>
                   <input type="radio" id="C"
                name="gender" value="Custom">
+               </div>
                </form>  
     <footer>
         
@@ -105,7 +106,7 @@
     </button>
 </form>
     
-</div>
+
     
 
 
