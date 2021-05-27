@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,7 @@
 </head>
 <body class="pagina">
     <div class="bar">
-        <a href="../StartPage/html/p1.html" class="back"> &lt BACK </a>
+        <a href="../StartPage/html/p1.html" class="back"> &lt; BACK </a>
         <div class="rezultatTitlu">
             <p>RAPORT</p>
         </div>
