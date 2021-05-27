@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="/public/css/vizitator/index.css">
     <script src="/public/javaScript/topnav.js"></script>
 </head>
+
 <body>
-  
+
 <div class="fullTopnav">
         <div id="myTopnav" class="topnav">
             <a id="home" href="/vizitator/index">Home</a>
@@ -39,11 +40,7 @@
         </div>
     </div>
 
-
-</body>
-
-<form action="/vizitator/profil">
-    <div class="search">
+<form class="search" action="/vizitator/profil">
         <label for="fname" class="titlu">CAUTA PE CINEVA</label>
         <div class="line">
             <label for="fname">Numele</label>
@@ -63,8 +60,8 @@
         </div>
 
         <button class="btn"> Cauta! </button>
-    </div>
 </form>
 <h3>Apasă pe caută! pentru a ajunge la o pagină cu un model de rezultat</h3>
 
+</body>
 </html>
