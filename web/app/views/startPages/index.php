@@ -32,30 +32,24 @@
 
     
 
-   <main >
-    
+<main >
     <div class ="button">
         <form action="/startPages/LoginPage">  
             <button class="item"> Login </button>
         </form>
     </div>
-       
 
     <div class ="button">
-        <form > <a href="/startPages/SignUpPage">
-            <input class="item" type = "button" id = "button" value = "Sign Up">
-        </a>
-            </form> 
-         </div>
-       
+        <form action="/startPages/SignUpPage">  
+            <button class="item"> Sign Up </button>
+        </form>
+    </div>
 
-
-         <div class ="button">
-            <form > <a href="/startPages/AdministratorPage">
-                <input class ="item" type = "button" id ="button" value = "Login as Administrator">
-            </a>
-                </form>
-             </div>
+    <div class ="button">
+        <form action="/startPages/AdministratorPage">  
+            <button class="item"> Login as Administrator </button>
+        </form>
+    </div>
 </main>
 
 
