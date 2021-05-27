@@ -40,7 +40,7 @@
     </div>
 
     <div class="test">
-        <a href="../html/adaugaVizita.html">
+        <a href="/vizitator/viziteaza">
             <i class="fa fa-plus"></i>
         </a>
         <p>Viziteaza pe cineva</p>

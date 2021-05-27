@@ -7,7 +7,7 @@ h1 {
     animation-duration: 4s;
   }
   h2 {
-      color:blue;
+      color:rgb(0, 0, 255);
       font-size:20px;
      } 
   p {
@@ -110,7 +110,7 @@ h1 {
     display: block;
     width: 100%;
     border: 1px white;
-    background-color: #4c7faf;
+    background-color: rgb(76, 127, 175);
     color: white;
     padding: 14px 28px;
     font-size: 16px;
