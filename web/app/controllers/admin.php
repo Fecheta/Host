@@ -6,7 +6,7 @@ class Admin extends Controller{
 
     public function Principal($data = []){
         
-        $view = $this->view('admin/Principal',$data);
+        $view = $this->view('admin/index',$data);
     }
 
     public function IstoricVizite($data = []){
