@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/public/css/vizitator/viziteaza.css">
     <link rel="stylesheet" href="/public/css/vizitator/index.css">
-    <script type="text/javascript" src="/public/javaScript/topnav.js"></script>
+    <script src="/public/javaScript/topnav.js"></script>
 </head>
 <body>
     
@@ -64,17 +64,19 @@
         <div class="line">
             <label for="rude">Relatia cu detinutul</label>
             <select name="grad" id="rude" required>
+                <option> </option>
                 <option value="-1">- - select - -</option>
                 <option value="0">Ruda</option>
                 <option value="1">Tutore legal</option>
                 <option value="2">Avocat</option>
-                <option value="2.1">Prieten</option>
+                <option value="2">Prieten</option>
                 <option value="2.1">Altul</option>
             </select>
         </div>
         <div class="line">
-            <label for="rude">Scopul Vizitei</label>
-            <select name="grad" id="rude" required>
+            <label for="scop">Scopul Vizitei</label>
+            <select name="grad" id="scop" required>
+                <option> </option>
                 <option value="-1">- - select - -</option>
                 <option value="0">Vizita Amicala</option>
                 <option value="1">Chestiuni Judecatresti</option>
