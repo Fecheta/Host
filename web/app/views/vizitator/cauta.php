@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/public/css/vizitator/cauta.css">
     <link rel="stylesheet" href="/public/css/vizitator/index.css">
-    <script type="text/javascript" src="/public/javaScript/topnav.js"></script>
+    <script src="/public/javaScript/topnav.js"></script>
 </head>
 <body>
   
