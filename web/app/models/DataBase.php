@@ -22,6 +22,6 @@ $cleardb_url = parse_url(getenv("mysql://b2d8f581f3e0f5:f8a7a47e@us-cdbr-east-03
         $result = mysqli_query($conn, $sql);
 
         $row = mysqli_fetch_assoc($result);
-        echo $row["nume"];
+        echo $row["id_detinut"] . " " . $row["nume"] . " " . $row["prenume"];
         // return $row;
 ?>
