@@ -9,7 +9,7 @@ $cleardb_db = substr($cleardb_url["path"],1);
 $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
     if(!$conn){
-        die("Conectare esuata..." . mysqli_connect_error);
+        die("Conectare esuata..." . mysqli_connect_error());
     }
 
     function getDetinut($idDetinut){
