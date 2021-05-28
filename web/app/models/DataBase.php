@@ -19,9 +19,9 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 
     echo "Conected!";
 
-    // function getDetinut($idDetinut){
-    //     $sql = "SELECT id_detinut, nume, prenume FROM detinuti WHERE id = " . $idDetinut;
-    //     $result = mysqli_query($sql);
-    //     return $result;
-    // }
+    function getDetinut($idDetinut){
+        $sql = "SELECT id_detinut, nume, prenume FROM detinuti WHERE id = " . $idDetinut;
+        $result = mysqli_query($sql);
+        // return $result;
+    }
 ?>
