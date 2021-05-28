@@ -24,7 +24,7 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
         $result = mysqli_query($sql);
 
         $row = mysqli_fetch_assoc($result);
-        echo $row;
-        return $result;
+        return $row;
+        // return $result;
     }
 ?>
