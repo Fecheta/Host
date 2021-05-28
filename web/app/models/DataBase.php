@@ -21,7 +21,7 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 
     function getDetinut($idDetinut){
         $sql = "SELECT * FROM detinuti";
-        $result = mysqli_query($sql);
+        $result = mysqli_query($conn, $sql);
 
         $row = mysqli_fetch_assoc($result);
         return $row;
