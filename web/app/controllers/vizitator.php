@@ -30,7 +30,6 @@ class Vizitator extends Controller{
     public function profil($data = []){
         require_once __DIR__ . "/../models/DataBase.php";
         $res = getDetinut(4500);
-        echo $res;
         $view = $this->view('vizitator/profil', $res);
     }
 }
