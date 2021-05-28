@@ -9,12 +9,12 @@ $cleardb_db = substr($cleardb_url["path"],1);
 $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
     if(!$conn){
-        die("Conectare esuata...");
+        die("Conectare esuata..." . mysqli_connect_error);
     }
 
     function getDetinut($idDetinut){
         $sql = "SELECT id_detinut, nume, prenume FROM detinuti WHERE id = " . $idDetinut;
-        $result = mysql_query($sql);
+        $result = mysqli_query($sql);
         return $result;
     }
 ?>
