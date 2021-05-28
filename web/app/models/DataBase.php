@@ -1,9 +1,11 @@
 <?php
 
-    $servername = "us-cdbr-east-03.cleardb.com";
-    $username = "b2d8f581f3e0f5";
-    $password = "f8a7a47e";
-    $dbname = "demoBD";
+    $url = parse_url(getenv("mysql://b2d8f581f3e0f5:f8a7a47e@us-cdbr-east-03.cleardb.com/heroku_08132accc9fc692?reconnect=true"));
+    $server = $url["host"];
+    $username = $url["user"];
+    $password = $url["pass"];
+    $db = substr($url["path"], 1);
+    $conn = new mysqli($server, $username, $password, $db);
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
