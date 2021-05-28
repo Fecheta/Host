@@ -31,6 +31,7 @@ class Vizitator extends Controller{
         require_once __DIR__ . "/../models/database.util.php";
         $db = new Database();
         $res = $db->testSelect();
+        echo $res;
         $view = $this->view('vizitator/profil', $res);
     }
 }
