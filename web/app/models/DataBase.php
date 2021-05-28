@@ -5,7 +5,7 @@
     $username = "b2d8f581f3e0f5";
     $password = "f8a7a47e";
     $db = "DBdemo";
-    $conn = new mysqli($server, $username, $password, $db);
+    $conn = new mysqli($server, $username, $password);
 
     if($conn->connect_error){
         die("Conectare esuata..." . $conn->connect_error);
