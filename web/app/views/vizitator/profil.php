@@ -117,7 +117,7 @@
     </div>
 
     <?php
-        echo $data
+        echo $res;
     ?>
 </body>
 </html>
