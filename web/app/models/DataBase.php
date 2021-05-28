@@ -18,13 +18,10 @@ $cleardb_url = parse_url(getenv("mysql://b2d8f581f3e0f5:f8a7a47e@us-cdbr-east-03
     }
 
     // echo "Conected!";
-
-    function getDetinut(){
         $sql = "SELECT * FROM detinuti";
         $result = mysqli_query($conn, $sql);
 
         $row = mysqli_fetch_assoc($result);
-        // echo $row["nume"];
-        return $row;
-    }
+        echo $row["nume"];
+        // return $row;
 ?>
