@@ -1,19 +1,20 @@
 <?php
 
-    $url = parse_url(getenv("mysql://b2d8f581f3e0f5:f8a7a47e@us-cdbr-east-03.cleardb.com/heroku_08132accc9fc692?reconnect=true"));
-    $server = "us-cdbr-east-03.cleardb.com";
-    $username = "b2d8f581f3e0f5";
-    $password = "f8a7a47e";
-    $db = "DBdemo";
-    $conn = new mysqli($server, $username, $password);
+$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$cleardb_server = $cleardb_url["host"];
+$cleardb_username = $cleardb_url["user"];
+$cleardb_password = $cleardb_url["pass"];
+$cleardb_db = substr($cleardb_url["path"],1);
 
-    if($conn->connect_error){
-        die("Conectare esuata..." . $conn->connect_error);
+$conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+
+    if(!$conn){
+        die("Conectare esuata...");
     }
 
     function getDetinut($idDetinut){
         $sql = "SELECT id_detinut, nume, prenume FROM detinuti WHERE id = " . $idDetinut;
-        $result = $conn->query($sql);
+        $result = mysql_query($sql);
         return $result;
     }
 ?>
