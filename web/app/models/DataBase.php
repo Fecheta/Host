@@ -25,6 +25,6 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 
         $row = mysqli_fetch_assoc($result);
         echo "name: " . $row["nume"];
-        // return $result;
+        return $result;
     }
 ?>
