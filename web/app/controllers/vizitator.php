@@ -20,7 +20,7 @@ class Vizitator extends Controller{
     }
 
     public function cauta($data = []){
-        $view = $this->view('vizitator/cauta');
+        $view = $this->view('vizitator/cauta', $data);
     }
 
     public function despre($data = []){
@@ -28,7 +28,9 @@ class Vizitator extends Controller{
     }
 
     public function profil($data = []){
-        $view = $this->view('vizitator/profil');
+        require_once __DIR__ . "/../models/DataBase.php";
+        $data = getDetinut(4500);
+        $view = $this->view('vizitator/profil', $data);
     }
 }
 
