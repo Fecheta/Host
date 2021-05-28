@@ -17,14 +17,14 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
         die("Conectare esuata..." . mysqli_connect_error());
     }
 
-    echo "Conected!";
+    // echo "Conected!";
 
     function getDetinut($idDetinut){
         $sql = "SELECT * FROM detinuti";
         $result = mysqli_query($sql);
 
         $row = mysqli_fetch_assoc($result);
-        echo "name: " . $row["nume"];
+        echo $row;
         return $result;
     }
 ?>
