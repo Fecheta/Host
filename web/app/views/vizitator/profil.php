@@ -117,7 +117,7 @@
     </div>
 
     <?php
-        echo $res;
+        echo $res["nume"];
     ?>
 </body>
 </html>

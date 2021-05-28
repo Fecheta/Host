@@ -32,7 +32,7 @@ class Vizitator extends Controller{
         $db = new Database();
         $res = $db->testSelect();
         echo $res;
-        $view = $this->view('vizitator/profil', $res);
+        // $view = $this->view('vizitator/profil', $res);
     }
 }
 
