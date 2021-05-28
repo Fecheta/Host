@@ -12,8 +12,8 @@
     }
 
     function getDetinut($idDetinut){
-        $sql = "SELECT id, nume, prenume FROM detinuti WHERE id = " . $idDetinut;
+        $sql = "SELECT id_detinut, nume, prenume FROM detinuti WHERE id = " . $idDetinut;
         $result = $conn->query($sql);
-        return result;
+        return $result;
     }
 ?>
