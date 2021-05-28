@@ -28,8 +28,9 @@ class Vizitator extends Controller{
     }
 
     public function profil($data = []){
-        require_once __DIR__ . "/../models/DataBase.php";
-        $res = getDetinut(4500);
+        require_once __DIR__ . "/../models/database.util.php";
+        $db = new Database();
+        $res = $db->testSelect();
         $view = $this->view('vizitator/profil', $res);
     }
 }
