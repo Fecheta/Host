@@ -12,11 +12,11 @@ class Vizitator extends Controller{
     }
 
     public function istoric($data = []){
-        $view = $this->view('vizitator/istoric');
+        $view = $this->view('vizitator/istoric', $data);
     }
 
     public function viziteaza($data = []){
-        $view = $this->view('vizitator/viziteaza');
+        $view = $this->view('vizitator/viziteaza', $data);
     }
 
     public function cauta($data = []){
@@ -24,7 +24,7 @@ class Vizitator extends Controller{
     }
 
     public function despre($data = []){
-        $view = $this->view('vizitator/despre');
+        $view = $this->view('vizitator/despre', $data);
     }
 
     public function profil($data = []){

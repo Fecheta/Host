@@ -10,19 +10,19 @@ class Admin extends Controller{
     }
 
     public function IstoricVizite($data = []){
-        $view = $this->view('admin/IstoricVizite');
+        $view = $this->view('admin/IstoricVizite', $data);
     }
 
     public function DetaliiCont($data = []){
-        $view = $this->view('admin/DetaliiCont');
+        $view = $this->view('admin/DetaliiCont', $data);
     }
 
     public function Programari($data = []){
-        $view = $this->view('admin/Programari');
+        $view = $this->view('admin/Programari', $data);
     }
 
     public function VizualizareDetinuti($data = []){
-        $view = $this->view('admin/VizualizareDetinuti');
+        $view = $this->view('admin/VizualizareDetinuti', $data);
     }
 }
 
