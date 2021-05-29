@@ -10,7 +10,7 @@ class Controller{
         // echo $model;
     }
 
-    public function view($view, $data = []){
+    public function view($view, $data){
         require_once __DIR__ . '/../views/' . $view . '.php';
     }
 }

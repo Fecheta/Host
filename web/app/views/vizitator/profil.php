@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <div class="profil">
+    <!-- <div class="profil">
         <div class="numePoza">
             <img src="/public/images/prisoner.png" alt="prisoner" class="forImg">
             <div class="info">
@@ -114,10 +114,44 @@
                 <p class="col2Data">5 ani</p>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <?php
-        echo $res["nume"];
+        while($row = mysqli_fetch_assoc($data)){
+            echo "
+            <div class=\"profil\">
+                <div class=\"numePoza\">
+                    <img src=\"/public/images/prisoner.png\" alt=\"prisoner\" class=\"forImg\">
+                    <div class=\"info\">
+                        <h4>". $row["nume"] . " " . $row["prenume"] ."</h4>
+                        <h5>". $row["infractiune_comisa"] ."</h5>
+                    </div>
+                </div>
+                <div class=\"pData\">
+                    <div class=\"rawData\">
+                        <p class=\"col1Data\">Data nasterii: </p>
+                        <p class=\"col2Data\"><time datetime=\"1980-04-20\">". $row["data_nasterii"] ."</time></p>
+                    </div>
+                    <div class=\"rawData\">
+                        <p class=\"col1Data\">Starea de spirit</p>
+                        <p class=\"col2Data\">Necunoscuta</p>
+                    </div>
+                    <div class=\"rawData\">
+                        <p class=\"col1Data\">Starea de sanatate</p>
+                        <p class=\"col2Data\">Buna</p>
+                    </div>
+                    <div class=\"rawData\">
+                        <p class=\"col1Data\">Pedeapsa ramasa: </p>
+                        <p class=\"col2Data\">". $row["pedeapsa_ramasa"] ."</p>
+                    </div>
+                    <div class=\"rawData\">
+                        <p class=\"col1Data\">Pedeapsa totala: </p>
+                        <p class=\"col2Data\">". $row["pedeapsa_primita"] ."</p>
+                    </div>
+                </div>
+            </div>
+            ";
+        }
     ?>
 </body>
 </html>

@@ -30,9 +30,12 @@ class Vizitator extends Controller{
     public function profil($data = []){
         require_once __DIR__ . "/../models/database.util.php";
         $db = new Database();
-        $res = $db->testSelect();
-        echo $res;
-        // $view = $this->view('vizitator/profil', $res);
+        $cod = $_POST["cod"];
+        // echo $_POST["cod"];
+        // return;
+        $res = $db->testFindById($cod);
+
+        $view = $this->view('vizitator/profil', $res);
     }
 }
 

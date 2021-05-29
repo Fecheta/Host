@@ -40,26 +40,31 @@
         </div>
     </div>
 
-<form class="search" action="/vizitator/profil">
-        <label for="fname" class="titlu">CAUTA PE CINEVA</label>
-        <div class="line">
-            <label for="fname">Numele</label>
-            <input id="fname" type="text" placeholder="Numele de familie" required>
-        </div>
+<form method="POST" class="search" action="/vizitator/profil">
+        <label class="titlu">CAUTA PE CINEVA</label>
+
+        <label class="line">
+            <span> Numele </span>
+            <input type="text" placeholder="Numele de familie">
+        </label>
+
+
         <div class="line">
             <label for="lname">Prenumele</label>
-            <input id="lname" type="text" placeholder="Prenumele" required>
+            <input id="lname" type="text" placeholder="Prenumele">
         </div>
         <div class="line">
             <label for="cnp">CNP</label>
-            <input id="cnp" type="text" placeholder="Cod numeric personal" required>
-        </div>
-        <div class="line">
-            <label for="codDetinut">Cod Unic Detinut</label>
-            <input id="codDetinut" type="text" placeholder="Cod Detinut" required>
+            <input id="cnp" type="text" placeholder="Cod numeric personal">
         </div>
 
-        <button class="btn"> Cauta! </button>
+
+        <label class="line">
+            <span> Cod Unic Detinut </span>
+            <input type="text" placeholder="Cod Detinut" name="cod" required>
+        </label>
+
+        <button class="btn" type="submit"> Cauta! </button>
 </form>
 <h3>Apasă pe caută! pentru a ajunge la o pagină cu un model de rezultat</h3>
 

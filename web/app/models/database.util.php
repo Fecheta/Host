@@ -9,7 +9,7 @@
         private $conn;
 
         public function __construct(){
-            $this->conn = mysqli_connect($hostname, $username, $password, $dbname);
+            $this->conn = mysqli_connect($this->hostname, $this->username, $this->password, $this->dbname);
 
             if(!$this->conn){
                 echo "Nu ma pot conecta la baza de date... " . mysqli_error();
@@ -20,8 +20,14 @@
             $sql = "SELECT * FROM detinuti";
             $result = mysqli_query($this->conn, $sql);
     
-            $row = mysqli_fetch_assoc($result);
-            return $row;
+            return $result;
+        }
+
+        public function testFindById($id){
+            $sql = "SELECT * FROM detinuti WHERE id_detinut = " . $id;
+            $result = mysqli_query($this->conn, $sql);
+
+            return $result;
         }
 
     }
