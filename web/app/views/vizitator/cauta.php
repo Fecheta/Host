@@ -48,20 +48,20 @@
             <input type="text" placeholder="Numele de familie">
         </label>
 
+        <label class="line">
+            <span for="lname">Prenumele</span>
+            <input type="text" placeholder="Prenumele">
+        </label>
 
-        <div class="line">
-            <label for="lname">Prenumele</label>
-            <input id="lname" type="text" placeholder="Prenumele">
-        </div>
-        <div class="line">
-            <label for="cnp">CNP</label>
-            <input id="cnp" type="text" placeholder="Cod numeric personal">
-        </div>
+        <label class="line">
+            <span>CNP</span>
+            <input type="text" placeholder="Cod numeric personal">
+        </label>
 
 
         <label class="line">
             <span> Cod Unic Detinut </span>
-            <input type="text" placeholder="Cod Detinut" name="cod" required>
+            <input type="number" placeholder="Cod Detinut" name="cod" required>
         </label>
 
         <button class="btn" type="submit"> Cauta! </button>

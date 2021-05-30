@@ -103,7 +103,7 @@
     <form   action = "/startPages/LoginPage">
     <button  type="submit">
          Register
-    </button>
+</button>
 </form>
     
 

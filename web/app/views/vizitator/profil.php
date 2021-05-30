@@ -117,11 +117,11 @@
     </div> -->
 
     <?php
-        while($row = mysqli_fetch_assoc($data)){
+        while ($row = $data->fetch_assoc()) {
             echo "
             <div class=\"profil\">
                 <div class=\"numePoza\">
-                    <img src=\"/public/images/prisoner.png\" alt=\"prisoner\" class=\"forImg\">
+                    <img src=\"/public/images/". $row["poza"] ."\" alt=\"prisoner\" class=\"forImg\">
                     <div class=\"info\">
                         <h4>". $row["nume"] . " " . $row["prenume"] ."</h4>
                         <h5>". $row["infractiune_comisa"] ."</h5>

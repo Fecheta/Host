@@ -32,16 +32,16 @@ body{
     margin: 0.5em 0.5em;
 }
 
-.line label{
+.line span{
     display: inline-block;
     font-size: 1.2em;
     margin: 2em 1em;
-    width: 20%;
+    width: 30%;
     /* border: 1px solid black; */
     /* background-color: wheat; */
 }
 
-form label:not(.titlu)::after{
+form span:not(.titlu)::after{
     color: crimson;
     content: "*";
     font-weight: bold;
@@ -88,7 +88,7 @@ form label:not(.titlu)::after{
         font-size: 1em;
     }
 
-    .line label{
+    .line span{
         float: none;
         margin: auto;
         width: 70%;
